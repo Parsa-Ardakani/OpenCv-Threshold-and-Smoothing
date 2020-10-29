@@ -22,7 +22,7 @@ Description_Background[:] = [255,255,255] # Change the color of image to white
 
 #----------------Receiving Images----------------------------------
 #Our Images
-img1 = cv2.imread('Ballon.jpg')# inside parantesies put the location of image
+img1 = cv2.imread('Balloon.jpg')# inside parantesies put the location of image
 img2 = cv2.imread('bird.jpg')# if they are in the same file as the code only write the name
 
 
