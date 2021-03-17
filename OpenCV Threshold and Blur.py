@@ -23,7 +23,7 @@ Description_Background[:] = [255,255,255] # Change the color of image to white
 #----------------Receiving Images----------------------------------
 #Our Images
 img1 = cv2.imread('Balloon.jpg')# inside parantesies put the location of image
-img2 = cv2.imread('bird.jpg')# if they are in the same file as the code only write the name
+img2 = cv2.imread('bird1.jpg')# if they are in the same file as the code only write the name
 
 
 #______________________________________________________________
@@ -227,7 +227,7 @@ def Combination(Mask):
 #-----------------------Main Loop-------------------------------
 
 while True:
-    img2 = cv2.imread('bird.jpg') # Refresh image to avoid image overlapping
+    img2 = cv2.imread('bird1.jpg') # Refresh image to avoid image overlapping
     #-------------------------Task Bar------------------------------------
     #Storing the value of each bar
     Threshold_Rnage = cv2.getTrackbarPos('Threshold','Setting')
